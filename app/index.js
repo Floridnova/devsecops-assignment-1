@@ -1,1 +1,3 @@
-﻿console.log("Hello from Etsub - DevSecOps Assignment 1");
+﻿const config = require("../config/env");
+
+console.log("Etsub's app: " + config.appName + " is configured to run on port " + config.port);
